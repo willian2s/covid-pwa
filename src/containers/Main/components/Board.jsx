@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { Grid, Skeleton } from '@src/components';
 import Card from '@src/containers/Main/components/Card';
 
