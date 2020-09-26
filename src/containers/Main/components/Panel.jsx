@@ -1,5 +1,7 @@
 import React, { memo } from 'react'
 // import RefreshIcon from '@src/assets/images/refresh.svg';
+import ShareIcon from '@material-ui/icons/Share';
+import FileCopyIcon from '@material-ui/icons/FileCopy';
 import COUNTRIES from '@src/commons/constants/countries';
 import {
   Card,
@@ -51,7 +53,7 @@ function Panel({ updateAt, onChange, data, country, getCovidData }) {
   const renderShareButton = (
     <div>
       <Button variant="contained" color="primary" onClick={shareInfo}>
-        Compartilhar
+        <ShareIcon />
       </Button>
     </div>
   )
@@ -59,7 +61,7 @@ function Panel({ updateAt, onChange, data, country, getCovidData }) {
   const renderCopyButton = (
     <div>
       <Button variant="contained" color="primary" onClick={copyInfo}>
-        Copiar
+        <FileCopyIcon />
       </Button>
     </div>
   )
