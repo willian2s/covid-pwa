@@ -29,6 +29,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 :nail_care: [Styled Components](https://styled-components.com/)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/606d9276-b20f-41c1-b28f-8e19157e3878/deploy-status)](https://app.netlify.com/sites/coronainworld/deploys)
+
 ## 💻 Projeto
 
 Mantenha-se informado a respeito de todos os casos do COVID19 pelo mundo criando uma "Progressive Web Application (PWA)" utilizando React e aprenda como criar uma aplicação para ser executada no browser e funcionar como aplicativo contendo algumas funcionalidades de um aplicativo nativo.
