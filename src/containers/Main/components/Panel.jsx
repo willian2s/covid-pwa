@@ -1,5 +1,4 @@
-import React, { memo } from 'react'
-// import RefreshIcon from '@src/assets/images/refresh.svg';
+import React, { memo } from 'react';
 import ShareIcon from '@material-ui/icons/Share';
 import FileCopyIcon from '@material-ui/icons/FileCopy';
 import COUNTRIES from '@src/commons/constants/countries';
@@ -15,7 +14,7 @@ import {
   ItemStyled
 } from './style';
 
-const navigatorHasShare = navigator.share
+const navigatorHasShare = navigator.share;
 
 function Panel({ updateAt, onChange, data, country, getCovidData }) {
   const { cases, todayCases, deaths, todayDeaths, recovered} = data;
@@ -36,19 +35,19 @@ function Panel({ updateAt, onChange, data, country, getCovidData }) {
     total de casos: ${cases}
     obitos hoje: ${todayDeaths}
     total de obitos: ${deaths}
-  `
+  `;
 
   const copyInfo = () => {
     navigator.clipboard.writeText(textCovid19)
-  }
+  };
 
   const shareInfo = () => {
     navigator.share({
       title: `Dados do Covid19 - ${country}`,
       text: textCovid19,
       url: 'https://coronainworld.netlify.app/'
-    })
-  }
+    });
+  };
 
   const renderShareButton = (
     <div>
@@ -56,7 +55,7 @@ function Panel({ updateAt, onChange, data, country, getCovidData }) {
         <ShareIcon />
       </Button>
     </div>
-  )
+  );
 
   const renderCopyButton = (
     <div>
@@ -64,7 +63,7 @@ function Panel({ updateAt, onChange, data, country, getCovidData }) {
         <FileCopyIcon />
       </Button>
     </div>
-  )
+  );
 
   return (
     <Card>

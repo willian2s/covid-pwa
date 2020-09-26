@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components';
-// import CovidImg from '@src/assets/images/covid.jpg';
 
 const globalStyle = createGlobalStyle`
   * {
