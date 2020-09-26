@@ -1,12 +1,11 @@
-import React, { memo } from 'react';
-import PropTypes from 'prop-types';
-import { Card as CardUI } from 'components';
-
+import React, { memo } from 'react'
+import PropTypes from 'prop-types'
+import { Card as CardUI } from '../../../components'
 import {
   LabelStyled,
   ValueStyled,
-  CardContentStyled,
-} from './style';
+  CardContentStyled
+} from './style'
 
 function Card({ value, label, color }) {
   return (
@@ -19,4 +18,4 @@ function Card({ value, label, color }) {
   )
 }
 
-export default memo(Card);
+export default memo(Card)

@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import CovidImg from 'assets/images/covid.jpg';
+import CovidImg from '@src/assets/images/covid.jpg';
 
 const globalStyle = createGlobalStyle`
   * {
@@ -20,7 +20,7 @@ const globalStyle = createGlobalStyle`
   }
 
   #root {
-    background: url(${CovidImg});
+    background: linear-gradient(45deg, rgba(17,13,83,1) 15%, rgba(60,60,184,1) 35%, rgba(0,212,255,1) 80%);
     height: 100%;
     width: 100%;
     background-size: cover;

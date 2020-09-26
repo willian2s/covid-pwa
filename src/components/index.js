@@ -1,18 +1,18 @@
-import { Card, CardContent } from './Card';
-import Button from './Button';
-import Grid from './Grid';
-import MenuItem from './MenuItem';
-import Select from './Select';
-import Skeleton from './Skeleton';
-import Typography from './Typography';
+import { Card, CardContent } from '@src/components/Card'
+import Button from '@src/components/Button'
+import Grid from '@src/components/Grid'
+import Typography from '@src/components/Typography'
+import Skeleton from '@src/components/Skeleton'
+import Select from '@src/components/Select'
+import MenuItem from '@src/components/MenuItem'
 
-export default {
+export {
+  Button,
   Card,
   CardContent,
-  Button,
   Grid,
-  MenuItem,
-  Select,
+  Typography,
   Skeleton,
-  Typography
+  Select,
+  MenuItem
 }
